@@ -1,16 +1,22 @@
 {
-  "name": "note-taker",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
+  },
+  "name": "notemaker",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmsingh9899/noteMaker.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmsingh9899/noteMaker/issues"
+  },
+  "homepage": "https://github.com/jmsingh9899/noteMaker#readme",
   "dependencies": {
-    "express": "^4.16.4",
-    "uuid": "^8.3.2"
+    "express": "^4.17.1"
   }
 }
