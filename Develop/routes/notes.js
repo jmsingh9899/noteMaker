@@ -53,7 +53,7 @@ notes.post('/', (req, res) => {
         fs.writeFileSync( path.join(__dirname, '../db/notes.json'), JSON.stringify(notesy, null, 4));
         return res.json('ok');
     } else {
-        res.json("notes not being retrieved from front end")
+        res.json("notes not being retrieved from front end.")
     }
 
 });
